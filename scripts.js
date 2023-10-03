@@ -19,7 +19,7 @@ const sarahPostal = "0310";
    - Added "," after every key 
 */
 
-// Turned their balances into float number values
+// Turned their balances into float number values, better readability in the console imo
 
 const leoFloat = parseFloat(leoBalance);
 const sarahFloat = parseFloat(sarahBalance);

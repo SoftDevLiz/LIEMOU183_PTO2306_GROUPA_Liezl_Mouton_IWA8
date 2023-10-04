@@ -39,8 +39,8 @@ const leo = {
 
 const sarah = {
   // Added = symbol
-  firstName: sarahName + sarahSurname, // Changed name to firstName and fixed spelling (missing the h in sarah)
-  balance: sarahFloat,
+  firstName: sarahName.trim() + " " + sarahSurname, // Changed name to firstName and fixed spelling (missing the h in sarah) + trimmed empty spaces
+  balance: sarahFloat.toFixed(2), // toFixed for 2nd decimal place
   accessID: "6b279ae5-5657-4240-80e9-23f6b635f7a8", // Changed "access id" to camel case and changed the ID to a string
   age: 62,
   address: {

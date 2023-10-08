@@ -52,5 +52,5 @@ const sarah = {
 
 // Fixed the below from [brackets] to "." dots to pull from the object(s)
 
-console.log(leo, leo.address.postalCode);
+console.log("leo", leo, leo.address.postalCode);
 console.log(sarah, sarah.address.postalCode);
